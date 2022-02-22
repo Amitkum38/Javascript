@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var and Let </title>
+    <style type="text/css">
+        ol li{font-size:24px; padding: 10px 0;}
+    </style>
+</head>
+<body>
+    <h1>Difference between "var" and "let" Keyword ?</h1>
+    <ol>
+        <li>"let" was introduced in ES2015/ES6</li>
+        <li>"var" is there in JS from the beginning</li>
+        <li>"let" has Block scope</li>
+        <li>"var" has function scope</li>
+        <li>"var" gets hoisted -</li>
+        <li>Example :- let x = function(){
+            if(true){
+                console.log(a); 
+               console.log(b);
+                var a = 10;
+                let b = 20;
+
+            }
+            console.log(a);
+            console.log(b)
+        }
+        x();</li>
+        
+    </ol>
+    <script type="text/javascript">
+        let x = function(){
+            if(true){
+                console.log(a);
+               console.log(b);
+                var a = 10;
+                let b = 20;
+
+            }
+            console.log(a);
+            console.log(b)
+        }
+        x();
+
+     
+    </script>
+</body>
+</html>
