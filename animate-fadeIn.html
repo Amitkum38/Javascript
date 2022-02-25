@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+	<div class="button" >
+		<button type="button" id="delay">Click to fade in boxes with a delay</button>
+    </div>
+</div>
+    
+<div class="fade-1" style="width:271px; height: 250px; display: none; background-color:aqua"></div>    
+<div class="fade-2" style="width:271px; height: 50px; display: none; background-color:black"></div>    
+<div class="fade-3" style="width:271px; height: 50px; display: none; background-color:blueviolet"></div> 
+<div class="fade-3" style="width:271px; height: 50px; display: none; background-color:burlywood"></div> 
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+ $(document).ready(function(){
+   $("#delay").click(function(){
+       $(".fade-1").delay("slow").fadeIn();
+       $(".fade-2").delay("fast").fadeIn();
+       $(".fade-3").delay("500").fadeIn();
+       $(".fade-3").delay("2000").fadeIn();
+   });
+ });   
+</script>
+</body>
+</html>

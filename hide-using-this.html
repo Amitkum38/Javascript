@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+		<div class="block-4"> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4 "> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4"> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4" id="hide"> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4"> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4 "> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4"> <img src="img/a.png" class="responsive"/> </div>
+		<div class="block-4 "> <img src="img/a.png" class="responsive"/> </div>
+</div>
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+     $(document).ready(function(){
+         $(".block-4").click(function(){
+           $(this).hide(); 
+         }); 
+     });
+    
+    </script>
+</body>
+</html>

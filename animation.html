@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+		<div class="button" >
+				<button type="button">animate</button>
+		</div>
+		<img src="img/source.gif" id="animation"> </div>
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+       $(document).ready(function(){
+           $("button").click(function(){
+               $("#animation").animate({right:'600px'});
+           });
+       });
+    </script>
+</body>
+</html>

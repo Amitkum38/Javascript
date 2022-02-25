@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div style="background-color:mediumvioletred">
+    Name : <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+</div>
+    <!========= JQUERY START==============>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+     $("div").delegate("p", "click", function(){
+         $(this).slideToggle();
+     });
+     $("button").click(function(){
+        $("<p>This is a New Paragarph</p>").insertAfter("button"); 
+     });   
+    </script>
+</body>
+
+</html>

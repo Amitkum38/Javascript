@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+		<div class="button" >
+				<button type="button">animate</button>
+		</div>
+		<div class="box-an" id="box-animation"></div>
+</div>
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+       $(document).ready(function(){
+           $("button").click(function(){
+              var an = $("#box-animation");
+              an.animate({width:'20%', height:'20%',   opacity:'1.0',});
+              an.animate({width:'40%', height:'40%',   opacity:'0.8',});
+              an.animate({width:'60%', height:'60%',   opacity:'0.6',});
+              an.animate({width:'80%', height:'80%',   opacity:'0.4',});
+              an.animate({width:'100%', height:'100%', opacity:'0.2',}); 
+           });
+       });
+    </script>
+</body>
+</html>

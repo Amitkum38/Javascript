@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="container-full">
+	  <div class="bind">
+       <p>Hover the mouse pointer over this paragraph</p>
+      </div>
+    </div>
+
+    
+
+    
+    <!========= JQUERY START==============>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+         $("p").bind("mouseover mouseout", (function(){
+            $("p").toggleClass("intro"); 
+         });
+                       
+     });
+</script>
+</body>
+
+</html>

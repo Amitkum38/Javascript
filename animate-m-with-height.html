@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+	<div class="button" >
+		<button type="button" id="start">animation</button>
+        <button type="button" id="stop">animation</button>				
+
+    </div>
+</div>
+ <span class="animation"></span>    
+    
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#start").click(function(){
+          $("span").animate({width:"400px"},2000);
+          $("span").animation({height:"900px"},2000);
+        });
+        $("stop").ready(function(){
+          $("span").clearQueue();    
+        });    
+    });
+</script>
+</body>
+</html>

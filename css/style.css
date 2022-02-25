@@ -1,0 +1,26 @@
+body { margin: 0; padding: 0; line-height: 18px; font-size: 12px; font-family: 'Julius Sans One', sans-serif; }
+.container-full { width: 100%; margin-left: auto; margin-right: auto; overflow: hidden; }
+.block-4 { width: 25%; float: left; padding: 15px; box-sizing: border-box; cursor: pointer; }
+.responsive { max-width: 100%; height: auto; }
+.button {width: 100%;float: left;}
+.button button { background: #000; padding: 10px 15px; color: #fff; font-weight: 700; border: none; font-size: 12px; text-transform: uppercase; cursor: pointer; }
+.alert { font-size: 45px; text-align: center; text-transform: uppercase; margin: 18%; padding: 25px; }
+body { margin: 0; padding: 0; line-height: 18px; font-size: 12px; font-family: 'Julius Sans One', sans-serif; }
+.container-full { width: 100%; margin-left: auto; margin-right: auto; overflow: hidden; }
+.block-4 { width: 25%; float: left; padding: 15px; box-sizing: border-box; cursor: pointer; }
+.responsive { max-width: 100%; height: auto; }
+.button {width: 100%;float: left;}
+.button button { background: #000; padding: 10px 15px; color: #fff; font-weight: 700; border: none; font-size: 12px; text-transform: uppercase; cursor: pointer; }
+.alert { font-size: 45px; text-align: center; text-transform: uppercase; margin: 18%; padding: 25px; }
+#menu { width: 150px; background: black; float: left; margin-left: 15px; margin-top: 5px; }
+#menu ul { list-style: none; padding: 0; text-transform: uppercase; margin: 0; }
+#menu ul li { list-style: none; padding: 0; margin: 0; }
+#menu ul li a { list-style: none; text-align: left; padding: 10px; color: #fff; line-height: 17px; width: 100%; text-transform: uppercase; text-decoration: none; display: inline-block; box-sizing: border-box; }
+#menu ul li a:hover { background: #ff9595; }
+#animation { position: absolute; max-width: 100%; height: auto; right: 0px; }
+#box-animation{background: black;position: fixed;top: 36px;left: 0;float: left;}
+.container-full p{font-family: initial;font-size: 15px;color:#000;line-height: 22px;padding: 26px;width: 70%;margin: 0 auto;text-align: justify;}
+.container-full p:hover{cursor: pointer; color: red;}
+.addclass-into{font-size: 30px;color: #5a5a5a;background-color: white;line-height: 35px;width: 50%;margin: 12% auto;display: block;border: 1px #5a5a5a solid;padding: 50px;overflow: hidden;}
+.animation{width:200px;height: 200px;background:red;display: block;}
+.intro{background:red;color:burlywood; font-family: 15px;}

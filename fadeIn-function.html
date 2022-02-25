@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-full">
+		<div class="button" >
+				<button type="button">fadeIn</button>
+		</div>
+		<div class="block-4"  id="fadeIn" style="display: none"> <img src="img/p.png" class="responsive"/> </div>
+		<div class="block-4"  id="fadeInslow" style="display: none"> <img src="img/p.png" class="responsive"/> </div>
+		<div class="block-4"  id="fadeInspeed" style="display: none"> <img src="img/p.png" class="responsive"/> </div>
+</div>
+
+<!========= JQUERY START==============> 
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript">
+     $(document).ready(function(){
+         $("button").click(function(){
+           $("#fadeIn").fadeIn();
+           $("#fadeInslow").fadeIn("slow");
+           $("#fadeInspeed").fadeIn(3000);     
+         });
+     });
+    </script>
+</body>
+</html>

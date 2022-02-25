@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<h1>What is Lorem Ipsum? </h1>
+<h2>What is Lorem Ipsum? </h2>
+<p>A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.</p>    
+    
+    <!========= JQUERY START==============>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+     $("h1, h2, p").click(function(event){
+       alert(event.currentTarget === this);
+     });                 
+     });
+    </script>
+</body>
+
+</html>
